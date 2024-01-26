@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #db0c0c; 
+  color: white; 
+  height: 70px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 1.5em; 
+  position: absolute;
+  left: 0;
+  padding: 20px;
+}
+.nav-cuts {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center; 
+  align-items: center; 
+}
+.nav-links {
+  margin: 0 15px; 
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+.banner {
+  height: 50vh;
+  background-image: url("/assets/pizza-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-text{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+
+}
+.variety{
+  width: 100%;
+  padding-left: 20px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+.variety>h1{
+  text-align: center;
+  margin-top: 0;
+}
+.pizzas{
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+.container-item{
+  margin-right: 30px;
+
+}
+.container-item>img{
+  height: 150px;
+}
+.order-section{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-card{
+  height: 250px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #db0c0c;
+  padding: 7px;
+  color: gray;
+
+}
+.image-div{
+  height: 150px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.image-div>img{
+  height: 100%;
+}
+.pizza-card>p{
+  text-align: left;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.order-btn{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 180px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.make-a-pizza{
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+form>input{
+  width: 250px;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-size: 18px;
+  padding: 14px;
+}
+.size-options{
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+  color: gray;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 250px;
+}
+.option-list{
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.option-list:hover{
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.quantity{
+  height: 100px;
+}
+
+
