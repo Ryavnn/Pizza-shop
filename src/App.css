@@ -64,7 +64,6 @@ nav {
   align-items: center;
   flex-direction: column;
   margin: 0;
-  overflow: hidden;
 }
 .variety>h1{
   text-align: center;
@@ -77,7 +76,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 0;
-  overflow: hidden;
+
 }
 .container-item{
   margin-right: 30px;
@@ -159,7 +158,8 @@ form>input{
   border: 2px solid black;
   border-radius: 5px;
   margin-top: 5px;
-  width: 250px;
+  max-width: 250px;
+  overflow-y: scroll;
 }
 .option-list{
   height: 30px;
